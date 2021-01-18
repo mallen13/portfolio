@@ -124,14 +124,14 @@ hr{
 .portfolioProject .rowContainer{
   flex-direction: column;
 }
-.contactSection{
-  margin-bottom: 40px;
-}
 
 /*Contact Section*/
 .hiddenEmail{
   display: none;
   text-align: center;
+}
+.contactSection{
+  padding-bottom: 40px;
 }
 
 /* footer */
