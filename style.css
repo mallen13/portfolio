@@ -100,7 +100,8 @@ hr{
   text-align: left;
 }
 .introSection img{
-   width: 100px;
+   width: 130px;
+   border: none;
 }
 .introSection h1{
   color: #9699BA;
@@ -128,6 +129,9 @@ hr{
 }
 .projectNumbering{
   color: #9699BA;
+}
+.projectSection img{
+  height: 300px;
 }
 
 /* footer */
