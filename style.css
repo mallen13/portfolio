@@ -3,8 +3,6 @@
   margin: 0px;
   padding: 0px;
 }
-html{
-}
 
 body{
   background-color: #001A33;
@@ -31,17 +29,14 @@ h3{
 
 img{
   width: 300px;
+  margin: 15px;
+  border: 1px solid #00ffff;
 }
 
 p{
   line-height: 1.3;
   font-size: 1.2em;
   padding: 5px;
-}
-
-img{
-  margin: 15px;
-  border: 1px solid #00ffff;
 }
 
 a, a:visited{
@@ -69,7 +64,8 @@ ul{
 
 hr{
   border: 0.75px solid #00ffff;
-  margin: 20px 20px 0px 20px;
+  width: 93%;
+  margin-top: 15px;
 }
 
 /*utilities*/
@@ -90,8 +86,7 @@ hr{
   justify-content: flex-end;
 }
 .sectionStyle{
-  margin: 0px 20px 0px 20px;
-  margin-top: 20px;
+  margin: 20px 20px 0px 20px;
 }
 
 /* intro section */
@@ -100,7 +95,7 @@ hr{
   text-align: left;
 }
 .introSection img{
-   width: 130px;
+   width: 140px;
    border: none;
 }
 .introSection h1{
@@ -124,7 +119,19 @@ hr{
   color: #9699BA;
 }
 .projectSection img{
-  height: 300px;
+  width: 300px;
+}
+.portfolioProject .rowContainer{
+  flex-direction: column;
+}
+.contactSection{
+  margin-bottom: 40px;
+}
+
+/*Contact Section*/
+.hiddenEmail{
+  display: none;
+  text-align: center;
 }
 
 /* footer */
@@ -145,3 +152,199 @@ footer a{
 svg{
   margin: 5px;
 }
+
+/*Media Queries*/
+ /*Smaller Phone*/
+ @media only screen and (min-width: 320px) and (max-width: 374px) {
+  .sectionStyle{
+    margin: 20px
+  }
+  h1{
+    font-size: 2 em;
+    padding: 10px;
+    color: #DFE0F0;
+  }
+  
+  h2{
+    font-size: 1.5em;
+    padding: 10px;
+    color: #DFE0F0;
+  }
+  
+  h3{
+    font-size: 1.17em;
+    padding: 10px;
+    color: #DFE0F0;
+  }
+  
+  .projectSection img{
+    width: 250px;
+    margin: 15px;
+    border: 1px solid #00ffff;
+  }
+  p{
+    line-height: 1.1;
+    font-size: 1.1em;
+    padding: 5px;
+  }
+  li{
+    font-size: 1.1em;
+  }
+  a{
+    font-size: 1.1em;
+    display: block;
+  }
+  ul{
+      font-size: 1.0em;
+  }
+  .footerIcons a{
+    display: inline;
+  }
+}
+
+/*Landscape*/
+@media only screen and (min-width: 568px) {
+  .rowContainer{
+    flex-direction: row;
+  }
+  .sectionStyle{
+      margin: 50px 50px 50px 50px;
+  }
+  .introSection img{
+    width: 150px;
+  }
+  .aboutSection img{
+    width: 250px;
+  }
+  .projectSection img{
+    width: 350px;
+  }
+}
+
+/*Larger Phone Landscape & Tablet*/
+@media only screen and (min-width: 736px){
+  .rowContainer{
+    flex-direction: row;
+  }
+  .sectionStyle{
+   margin: 70px 70px 70px 70px;
+  }
+  .introSection img{
+    width: 150px;
+  }
+  .aboutSection img{
+    width: 250px;
+  }
+  .projectSection img{
+    width: 350px;
+  }
+}
+
+/*Computer & tablet landscape & large tablet*/
+@media only screen and (min-width: 992px) {
+  h1{
+    font-size: 3.5em;
+    padding: 12px;
+  }
+  
+  h2{
+    font-size: 2.6em;
+    padding: 12px;
+  }
+  
+  h3{
+    font-size: 2.35em;
+    padding: 12px;
+  }
+  
+  p{
+    line-height: 1.1;
+    font-size: 1.6em;
+    padding: 5px;
+  }
+  
+  a, a:visited{
+    width: 160px;
+    margin: 12px;
+    border: 2px solid #00ffff;
+    font-size: 1.6em;
+    display: block;
+  }
+  
+  a:hover{
+    border: 2px solid #9699BA;
+  }
+  
+  ul{
+    font-size: 1.6em;
+    padding: 10px;
+  }
+  
+  hr{
+    border: 1px solid #00ffff;
+  }
+
+  .introSection img{
+    width: 180px;
+  }
+  .projectSection img{
+    width: 400px;
+    margin: 30px;
+    border: 2px solid #00ffff;
+  }
+
+  .rowContainer{
+    flex-direction: row;
+  }
+
+  .sectionStyle{
+      margin: 100px 80px 0px 100px;
+  }
+  .aboutSection img{
+    width: 300px;
+    margin: 30px;
+  }
+
+  .footerIcons a{
+    display: inline;
+  }
+}
+
+/*Large Tablet Landscape and larger screen*/
+@media only screen and (min-width: 1025px) {
+  a, a:visited{
+    margin-top: 30px;
+  }
+   
+  .introSection img{
+    margin: 100px;
+  }
+  .introSection a{
+    margin-top: 100px;
+  }
+  .projectSection img{
+    width: 500px;
+    margin: 30px;
+    border: 2px solid #00ffff;
+  }
+  .rowContainer{
+    flex-direction: row;
+  }
+  .projectSection .rowContainer{
+    flex-direction: row-reverse;
+  }
+  .sectionStyle{
+    max-width: 900px;
+  }
+  .aboutSection img{
+    width: 400px;
+    margin: 30px;
+  }
+  .hiddenEmail{
+    display: block;
+  }
+  .footerIcons a{
+    display: inline;
+  }
+}
+	
