@@ -6,7 +6,7 @@
 
 body{
   background-color: #001A33;
-  color: #9699BA;
+  color: #acaec2;
 }
 
 h1{
@@ -45,14 +45,15 @@ a, a:visited{
   margin: 10px;
   border: 1px solid #00ffff;
   padding: 10px;
-  color: #DFE0F0;
+  color:  #DFE0F0;
   text-decoration: none;
   text-align: center;
   font-size: 1.2em;
+  transition-duration: 0.5s
 }
 
 a:hover{
-  border: 1px solid #9699BA;
+  border: 1px soli #DFE0F0;
 }
 
 ul{
@@ -76,15 +77,19 @@ hr{
   justify-content: center;
   align-items: center;
 }
+
 .row{
   flex-direction: row;
 }
+
 .alignEnd{
   align-items: flex-end;
 }
+
 .justifyEnd{
   justify-content: flex-end;
 }
+
 .sectionStyle{
   margin: 20px 20px 0px 20px;
 }
@@ -94,13 +99,16 @@ hr{
   height: 100vh;
   text-align: left;
 }
+
 .introSection img{
    width: 140px;
    border: none;
 }
+
 .introSection h1{
-  color: #9699BA;
+  color: #9699BA
 }
+
 .introHighlight{
   color: #DFE0F0;
 }
@@ -111,18 +119,16 @@ hr{
 }
 
 /*portfolio section*/
-
 .portfolioProject{
   margin-top: 25px;
 }
+
 .projectNumbering{
-  color: #9699BA;
+  color: #DFE0F0;
 }
+
 .projectSection img{
   width: 300px;
-}
-.portfolioProject .rowContainer{
-  flex-direction: column;
 }
 
 /*Contact Section*/
@@ -130,25 +136,29 @@ hr{
   display: none;
   text-align: center;
 }
+
 .contactSection{
   padding-bottom: 40px;
 }
 
 /* footer */
 footer{
-  color: #9699BA;
+  color: #DFE0F0;
   text-align: center;
 }
+
 footer p{
   text-align: center;
   margin-bottom: 15px;
 }
+
 footer a{
   border: none;
   font-size: 40px;
   width: auto;
   padding: 5px;
 }
+
 svg{
   margin: 5px;
 }
@@ -182,21 +192,26 @@ svg{
     margin: 15px;
     border: 1px solid #00ffff;
   }
+
   p{
     line-height: 1.1;
     font-size: 1.1em;
     padding: 5px;
   }
+
   li{
     font-size: 1.1em;
   }
+
   a{
     font-size: 1.1em;
     display: block;
   }
+
   ul{
       font-size: 1.0em;
   }
+
   .footerIcons a{
     display: inline;
   }
@@ -207,15 +222,19 @@ svg{
   .rowContainer{
     flex-direction: row;
   }
+
   .sectionStyle{
       margin: 50px 50px 50px 50px;
   }
+
   .introSection img{
     width: 150px;
   }
+
   .aboutSection img{
     width: 250px;
   }
+
   .projectSection img{
     width: 350px;
   }
@@ -226,15 +245,19 @@ svg{
   .rowContainer{
     flex-direction: row;
   }
+
   .sectionStyle{
    margin: 70px 70px 70px 70px;
   }
+
   .introSection img{
     width: 150px;
   }
+
   .aboutSection img{
     width: 250px;
   }
+
   .projectSection img{
     width: 350px;
   }
@@ -287,6 +310,7 @@ svg{
   .introSection img{
     width: 180px;
   }
+
   .projectSection img{
     width: 400px;
     margin: 30px;
@@ -300,6 +324,7 @@ svg{
   .sectionStyle{
       margin: 100px 80px 0px 100px;
   }
+
   .aboutSection img{
     width: 300px;
     margin: 30px;
@@ -319,30 +344,38 @@ svg{
   .introSection img{
     margin: 100px;
   }
+
   .introSection a{
     margin-top: 100px;
   }
+
   .projectSection img{
     width: 500px;
     margin: 30px;
     border: 2px solid #00ffff;
   }
+
   .rowContainer{
     flex-direction: row;
   }
+
   .projectSection .rowContainer{
     flex-direction: row-reverse;
   }
+
   .sectionStyle{
-    max-width: 900px;
+    max-width: 1000px;
   }
+
   .aboutSection img{
     width: 400px;
     margin: 30px;
   }
+
   .hiddenEmail{
     display: block;
   }
+
   .footerIcons a{
     display: inline;
   }
