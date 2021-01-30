@@ -362,7 +362,7 @@ svg{
   }
 
   .rowContainer{
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 
   .projectSection .rowContainer{
@@ -609,7 +609,7 @@ svg{
 /*Landscape*/
 @media only screen and (min-width: 568px) {
   .rowContainer{
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 
   .sectionStyle{
