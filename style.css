@@ -189,6 +189,7 @@ svg{
   
   .projectSection img{
     width: 250px;
+    height: 250px;
     margin: 15px;
     border: 1px solid #00ffff;
   }
@@ -313,6 +314,7 @@ svg{
 
   .projectSection img{
     width: 400px;
+    height: 400px;
     margin: 30px;
     border: 2px solid #00ffff;
   }
@@ -350,6 +352,7 @@ svg{
   }
 
   .projectSection img{
+    width: 500px;
     width: 500px;
     margin: 30px;
     border: 2px solid #00ffff;
