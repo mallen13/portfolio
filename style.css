@@ -27,8 +27,7 @@ h3{
   color: #DFE0F0;
 }
 
-img{
-  width: 300px;
+img{ 
   margin: 15px;
   border: 1px solid #00ffff;
 }
@@ -52,6 +51,13 @@ a, a:visited{
   transition-duration: 0.5s
 }
 
+.accordion-header {
+  border: 1px solid #00ffff;
+  background-color: white;
+
+  /* width: 500px; */
+}
+
 a:hover{
   border: 1px soli #DFE0F0;
 }
@@ -70,6 +76,11 @@ hr{
 }
 
 /*utilities*/
+
+.textContainer{
+  margin: 20px;
+  max-width: 1000px;
+}
 
 .flex{
   display: flex;
@@ -125,10 +136,6 @@ hr{
 
 .projectNumbering{
   color: #DFE0F0;
-}
-
-.projectSection img{
-  width: 300px;
 }
 
 /*Contact Section*/
@@ -219,9 +226,7 @@ svg{
 
 /*Landscape*/
 @media only screen and (min-width: 568px) {
-  .rowContainer{
-    flex-direction: row;
-  }
+ 
 
   .sectionStyle{
       margin: 50px 50px 50px 50px;
@@ -243,7 +248,7 @@ svg{
 /*Larger Phone Landscape & Tablet*/
 @media only screen and (min-width: 736px){
   .rowContainer{
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 
   .sectionStyle{
@@ -318,7 +323,7 @@ svg{
   }
 
   .rowContainer{
-    flex-direction: row;
+    flex-direction: row-reverse;
   }
 
   .sectionStyle{
