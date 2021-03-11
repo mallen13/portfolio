@@ -136,7 +136,10 @@ hr{
 }
 
 .linkContainer{
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .projectNumbering{
@@ -225,6 +228,10 @@ footer a:hover svg {
     border: 1px solid #00ffff;
   }
 
+  .linkContainer {
+    flex-direction: column;
+  }
+
   p{
     line-height: 1.1;
     font-size: 1.1em;
@@ -291,6 +298,11 @@ footer a:hover svg {
   .projectSection img{
     width: 350px;
   }
+
+  .linkContainer {
+    flex-direction: column;
+  }
+
 }
 
 /*Computer & tablet landscape & large tablet*/
