@@ -157,7 +157,7 @@ hr{
 
 /* footer */
 footer{
-  color: #DFE0F0;
+  color: #bdbece;
   text-align: center;
 }
 
@@ -170,17 +170,23 @@ footer a{
   border: none;
   font-size: 40px;
   width: auto;
-  padding: 5px;
+  color: #bdbece;
 }
 
 footer a:hover {
   border: none;
-  color: #00ffff;
+  color: #DFE0F0;
 }
 
-svg{
+footer svg{
+  color: #bdbece;
   margin: 5px;
 }
+
+footer a:hover svg {
+  color: #DFE0F0;
+} 
+
 
 /*Media Queries*/
  /*Smaller Phone*/
@@ -330,7 +336,6 @@ svg{
   .projectSection img{
     width: 400px;
     margin: 30px;
-    border: 2px solid #00ffff;
   }
 
   .rowContainer{
@@ -368,7 +373,6 @@ svg{
   .projectSection img{
     width: 500px;
     margin: 30px;
-    border: 2px solid #00ffff;
   }
 
   .rowContainer{
