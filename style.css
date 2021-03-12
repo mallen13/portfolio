@@ -26,6 +26,7 @@ h3{
   font-size: 1.35em;
   padding: 10px;
   color: #DFE0F0;
+  text-align: center;
 }
 
 img{ 
@@ -71,6 +72,16 @@ hr{
   border: 0.75px solid #00ffff;
   width: 93%;
   margin-top: 15px;
+}
+
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  
 }
 
 /*utilities*/
