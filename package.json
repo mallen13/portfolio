@@ -4,8 +4,7 @@
   "description": "Personal portolio of projcts",
   "main": "script.js",
   "dependencies": {
-    "particles.js": "^2.0.0",
-    "vanilla-tilt": "^1.7.0"
+    "particlesjs": "^2.2.3"
   },
   "devDependencies": {},
   "scripts": {
