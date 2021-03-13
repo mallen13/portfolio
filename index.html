@@ -15,7 +15,7 @@
 
 
 
-<body class="flex" id="pageTop">
+<body class="flex bodyClass" id="pageTop">
 
   <div id='particles-js' >
   </div>
@@ -183,7 +183,7 @@
 </div>
 
 <hr>
-
+<canvas class="background">
 <!--Footer-->
 <footer>
   <a href="#pageTop">^</a>
@@ -208,13 +208,15 @@ target="_blank">
   <p>Website built by Matt Allen</p>
 </footer>
 
-<canvas class="background"></canvas>
+</canvas>
 <script src='particles.min.js' ></script>
 <script>
   window.onload = function() {
   Particles.init({
     selector: '.background',
-    color: '#ffffff'
+    color: '#ffffff',
+    minDistance: 150,
+    maxParticles: 70
   });
 };
 </script>
