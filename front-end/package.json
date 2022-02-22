@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mallen13/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mallen13/portfolio/issues"
+  },
+  "homepage": "https://github.com/mallen13/portfolio#readme",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
