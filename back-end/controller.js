@@ -7,7 +7,6 @@ exports.handlePost = async (req,res) => {
 
     //recaptcha status
     const recaptchaStatus = await postCaptcha(token);
-    console.log(recaptchaStatus);
 
     if (recaptchaStatus === 'failed') {
         res.status(400).send({status: 'recaptcha failed'});
