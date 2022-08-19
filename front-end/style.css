@@ -302,6 +302,11 @@ nav svg:hover, nav svg:active, nav svg:focus {
 .projectSectionContainer {
     justify-content: space-between;
 }
+
+.projectContainer img {
+    width: 325px;
+    height: 175px;
+}
 #btnContainer {
     width: 100%;
     max-width: 600px;
