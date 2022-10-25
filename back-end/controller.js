@@ -53,7 +53,7 @@ const sendMessage = async (name,email,message) => {
         <p>Matt Allen </p>
         <p> 
             <em>Web Developer</em><br />
-            <em>Heath, Ohio</em><br />
+            <em>Remote, Ohio</em><br />
             <em>info@mattallen.tech</em><br />
             <em>https://mattallen.tech</em><br />
         </p>
