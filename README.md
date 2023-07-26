@@ -16,5 +16,3 @@ Node JS and Express JS were used on the back-end to create a simple API that tak
 After completing the design and coding phase, a few individuals were asked to review the website for feedback and to test the contact form to ensure it was working as expected.
 
 
-Be sure to check it out at https://mattallen.tech!
-
